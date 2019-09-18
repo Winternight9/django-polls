@@ -11,8 +11,8 @@ A tutorial project made by using Python with Django framework. In this project I
  * Python add-on modules as in [requirements.txt](requirements.txt)   
 ---
 ## How to Run
-
-* Match all requirements
+* git clone https://github.com/Winternight9/django-polls.git
+* Match requirements by using command 'pip3 install -r requirements.txt'
 * Run by this command 'python3 manage.py runserver'
 ---
 ## Features
