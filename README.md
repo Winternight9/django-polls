@@ -14,6 +14,7 @@ A tutorial project made by using Python with Django framework. In this project I
 * git clone https://github.com/Winternight9/django-polls.git
 * Match requirements by using command 'pip3 install -r requirements.txt'
 * Run by this command 'python3 manage.py runserver'
+* and open http://127.0.0.1:8000/polls
 ---
 ## Features
 1. Admin
