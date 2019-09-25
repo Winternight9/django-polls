@@ -3,7 +3,7 @@
 ---
 ## Django Polls Application
 A tutorial project made by using Python with Django framework. In this project I make polls app.
---- 
+
 ## Requirements
  The application requires
  * Python 3.6 or newer
@@ -13,6 +13,7 @@ A tutorial project made by using Python with Django framework. In this project I
 ## How to Run
 * git clone https://github.com/Winternight9/django-polls.git
 * Match requirements by using command 'pip3 install -r requirements.txt'
+* Create your config file by this command 'touch .env' in mysite
 * Run by this command 'python3 manage.py runserver'
 * and open http://127.0.0.1:8000/polls
 ---
@@ -25,7 +26,7 @@ A tutorial project made by using Python with Django framework. In this project I
     * Results 
 ---
 ## Implement
-* Add IPv4 to Allowed_Hosts for friends to connect to servers and can voted the polls.  
+* Add IPv4 to Allowed_Hosts for friends to connect to servers and vote the polls.  
 ---
-#### Last Update 16 Sep 2019
+#### Last Update 25 Sep 2019
 
