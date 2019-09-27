@@ -13,10 +13,10 @@ A tutorial project made by using Python with Django framework. In this project I
 ## How to Run
 * git clone https://github.com/Winternight9/django-polls.git
 * Match requirements by using command 'pip3 install -r requirements.txt'
-
+* Next run 'python3 manage.py migrate'
 * Create your config file by this command 'touch .env' in mysite
 * Run by this command 'python3 manage.py runserver'
-* and open http://127.0.0.1:8000/polls
+* and open http://127.0.0.1:8000
 ---
 ## Features
 1. Admin
