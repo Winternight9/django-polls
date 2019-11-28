@@ -9,10 +9,12 @@ Welcome back,
 Please <a href={% url 'login' %} >login </a> to vote for a topic
 {% endif %}
 
+{% block content %}
+    <h1>Current Polls</h1>    
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-    <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    <li><a id="q{{ question.id }}" href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
@@ -21,3 +23,4 @@ Please <a href={% url 'login' %} >login </a> to vote for a topic
 {% if user.is_authenticated %}
 <a href="{% url 'logout' %}">logout</a>
 {% endif %}
+{% endblock %}
