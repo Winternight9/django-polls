@@ -24,10 +24,4 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 
-class Vote(models.Model):
-    """A vote by a user for a particular choices in a Question"""
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    choice= models.ForeignKey(Choice, on_delete=models.CASCADE)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-
     
