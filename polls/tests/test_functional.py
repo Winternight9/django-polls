@@ -60,7 +60,7 @@ class SeleniumTestCase(LiveServerTestCase):
         self.selenium.find_element_by_id("login").click()
         link = self.selenium.find_element_by_tag_name('a')
         link.click()
-        choice1 = self.selenium.find_element_by_id(f"choice_id{choice.id}")
+        choice1 = self.selenium.find_element_by_id(f"choice{choice.id}")
         choice1.click()
         self.selenium.find_element_by_id(f"vote").click()
         self.assertEqual(self.selenium.current_url,self.live_server_url + '/polls/' + f"{question.id}/results/")
